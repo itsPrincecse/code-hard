@@ -273,7 +273,7 @@ router.get('/it', function(req, res, next){
 
 
 
-// GET logout
+// GET for logout
 router.get('/logout', function(req,res,next){
     if(req.session)
     {
